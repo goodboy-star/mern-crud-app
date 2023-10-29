@@ -34,7 +34,7 @@ function App() {
           <Routes>
             <Route exact path="/create-student" element={<CreateStudent />} />
             <Route exact path="/edit-student/:id" element={<EditStudent />} />
-            <Route exact path="/student-list" element={<StudentList />} />
+            {/* <Route exact path="/student-list" element={<StudentList />} /> */}
           </Routes>
         </div>
       </div>
